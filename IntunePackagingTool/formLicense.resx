@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtLicense.Text" xml:space="preserve">
+    <value>Intune Packaging Tool - package and deploy Win32 Apps in Intune without the command line
+Copyright © 2021 jParnell - All Rights Reserved
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+The details of the GPL v2 license can be found at https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AADZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l0H//ZdSD/2XQf/9l0
+        Hv/ZdB//2XQf/9l1H//ZdSD/2XQf/9l1IP/ZdB//2XQe/9l0H//ZdB//2XMd/9l1H//ZdSD/2XQe/9l0
+        H//ZdB7/2XQe/9l0H//ZdSD/2XQe/9l0Hv/ZdB//2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdiL/3IAy/9l2
+        Iv/cfi7/4I1H/92DNv/cfzD/238w/9l1IP/cgDH/2nkn/92DN//fi0T/3IEz/92DNv/gjkj/230t/9l2
+        If/eiD//3YQ4/96HPv/fiUH/3IAx/9p4JP/eikH/3oc9/9x/MP/ZdiH/2XUg/9l1IP/ZdSD/2XUg/9t7
+        Kv/svJL/3YQ4/+7Bm//suY7/8Mqp/+y7kv/psYH/2XQe/+u1h//np3H/8Mim/+u2iv/z07n/6a58/+y5
+        jv/tvpb/4ZNQ//HLq//rt4r/8Mqp/+u4jP/wyKf/6Kp2/+/Fov/tvZX/8Min/9p6Kf/ZdSD/2XUg/9l1
+        IP/ZdR//23wr/+/EoP/ehjv/78Sg/+ird//vxaL/78Wh/+u3i//Zcx3/7LuR//HMrf/orXv/2XUf/+/H
+        pP/knWH/6rKD/+/En//lomn/6rSF/+KXVv/wyKb/56hy//PTuP/yzrD/4I9L/96GO//xy6r/23wr/9l1
+        H//ZdSD/2XUg/9l1H//beyr/8tC0/+KWVf/fjUb/5qZu//LPsf/uwp3/8cuq/92CNP/vw5//78Of/+u2
+        if/cgTP/8s+x//HNr//vxaH/3oU6/+aja//supD/23wr/+ScX//qtIX/8tG1//HKqf/kml3/4ZNQ//LP
+        sv/beyr/2XUf/9l1IP/ZdSD/2XUg/9p5J//rton/7b6X/+iqdf/ruIz/7LuR/+ObXf/tv5f/7byT/+u3
+        i//eiD//7byT/+28k//02MD/6rKD/+2/mP/oqnb/78aj//XZwf/jmFj/56l0/+2/l//mpGz/4ZRS/+7C
+        m//uwJn/8s+y/9t7Kv/ZdR//2XUg/9l1IP/ZdSD/2XUg/9l2Iv/aeSf/2ngl/9t7Kv/aeCX/2XUg/9l2
+        Iv/beyn/2Xcj/9l0Hv/adyT/2nop/+2+lv/hk1H/2ngl/9p4Jf/hkk//5qRs/9l2If/aeCX/23sq/9l1
+        IP/ZdB//2nkn/92FOf/vxJ//23ws/9l1H//ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1H//ZdSD/2XUg/9l1IP/ZdR//45hY/92EOP/ZdB7/2XUg/9l1If/ZdiL/2XUg/9l1
+        IP/ZdR//2XUg/9l1IP/ZdR//23sp/+ObXf/aeCX/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdB7/2XUf/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XQe/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdB//2XQf/9l1IP/ZdSD/2XQf/9l0
+        H//ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/23oo/92CNf/dgjX/2noo/9p6
+        KP/dgjX/3YI1/9t6KP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9hzHf/lomn/+erd//nq
+        3f/loGb/5aBm//nq3f/56t3/5aJp/9hzHf/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2HMc/+iq
+        dv///////////+eocv/nqHL////////////oqnb/2HMc/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/Ycxz/6Kp2////////////56hy/+eocv///////////+iqdv/Ycxz/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9hzHP/oqnb////////////nqHL/56hy////////////6Kp2/9hzHP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2HMc/+iqdv///////////+eocv/nqHL////////////oqnb/2HMc/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/Ycxz/6Kp2////////////56hy/+eocv///////////+iq
+        dv/Ycxz/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9hzHP/oqnX////////////np3H/56dx////
+        ////////6Kp1/9hzHP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2HIc/+isef//////+/Lp/+GS
+        T//hkk//+/Lp///////orHn/2HIc/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XQe/9lzHf/Zcx3/2XMd/9lzHf/Zcx3/2XMd/9lzHf/bfSz/89G1//z1
+        7//mpW7/2XUg/9l1IP/mpW7//PXv//PRtf/bfSz/2XMd/9lzHf/Zcx3/2XMd/9lzHf/Zcx3/2XMd/9l0
+        Hv/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9p4JP/nqnX/7LyT/+y7kf/su5H/7LuR/+y7kf/su5H/7LyT//XZ
+        wv/78ej/5qVu/9l1H//ZdSD/2XUg/9l1H//mpW7/+/Ho//XZwv/svJP/7LuR/+y7kf/su5H/7LuR/+y7
+        kf/svJP/56p1/9p4JP/ZdSD/2XUg/9l1IP/ZdR//23sp//bdyf//////////////////////////////
+        /////////PTt/+albv/ZdB//2XUg/9l1IP/ZdSD/2XUg/9l0H//mpW7//PTt////////////////////
+        ///////////////////23cn/23sp/9l1H//ZdSD/2XUg/9l1H//bein/9drE///9/P/++/n//vv5//77
+        +f/++/n//vv6//vw5v/mpW7/2XUf/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1H//mpW7/+/Dm//77
+        +v/++/n//vv5//77+f/++/n///38//XaxP/bein/2XUf/9l1IP/ZdSD/2XUg/9l2Iv/hkU3/45td/+Oa
+        XP/jmlz/45pc/+OaXP/jmlz/4I1G/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/gjUb/45pc/+OaXP/jmlz/45pc/+OaXP/jm13/4ZFN/9l2Iv/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9hz
+        Hv/Ycx3/2HMd/9hzHf/Ycx3/2HMd/9hzHf/ZdB7/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l0Hv/Ycx3/2HMd/9hzHf/Ycx3/2HMd/9hzHf/Ycx7/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1IP/ZdSD/2XUg/9l1
+        IP/ZdSD/2XUg/9l1IP/ZdSD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
