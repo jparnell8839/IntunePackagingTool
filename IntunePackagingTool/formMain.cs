@@ -24,10 +24,13 @@ namespace IntunePackagingTool
             txtRenameFile.Hide();
             lblExpectedFileName.Hide();
             AppDir = Directory.GetCurrentDirectory();
-             
-             TempDir = Path.GetTempPath() + "IntunePackagingTool";
-             LicenseAgreement = TempDir + @"\AgreedToLicense";
-             IntuneWinAppUtil = TempDir + @"\IntuneWinAppUtil.exe";
+            TempDir = Path.GetTempPath() + "IntunePackagingTool";
+            if (!Directory.Exists(TempDir))
+            {
+                Directory.CreateDirectory(TempDir);
+            }
+            LicenseAgreement = TempDir + @"\AgreedToLicense";
+            IntuneWinAppUtil = TempDir + @"\IntuneWinAppUtil.exe";
             DirtyExit = TempDir + @"\.DirtyExit";
 
             if(File.Exists(DirtyExit))

@@ -76,12 +76,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D250608BA171BA456E53416DF54B5F8C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_DC4EE55520534FCCAC46A2594E87FEA2"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -103,6 +97,12 @@
         "OwnerKey" = "8:_856B7EAFE7FD0AAA528FC1FDD7B489FF"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D250608BA171BA456E53416DF54B5F8C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -121,6 +121,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -137,6 +145,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -397,15 +413,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Intune Packaging Tool"
-        "ProductCode" = "8:{44AFFD0F-8A2D-4257-A35F-C8AB0DB4A7AA}"
-        "PackageCode" = "8:{2BCC7C65-958B-45D9-B4FD-FC8173ADE7A8}"
+        "ProductCode" = "8:{4E101854-5E7D-4B7A-A62F-E55AAEDFAA85}"
+        "PackageCode" = "8:{3A1AEB07-F5A6-4470-8E71-A9808F7C134D}"
         "UpgradeCode" = "8:{637E9980-A891-4294-8429-7ADBABA02B0F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.2.4"
+        "ProductVersion" = "8:0.2.5"
         "Manufacturer" = "8:jParnell"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -989,7 +1005,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_DC4EE55520534FCCAC46A2594E87FEA2"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\IntunePackagingTool\\obj\\Release\\IntunePackagingTool.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_851AA0C55124409485722400DA12A5BC"
